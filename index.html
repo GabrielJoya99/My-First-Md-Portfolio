@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Sticky Navbar -->
+
+<nav class="navbar">
+  <div class="nav-logo">Peter Augros | Professor of Computer Science</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#philosophy">Philosophy</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section with Parallax -->
+
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <h1>Mater Dei High School</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Materdeilogo.png">
+    <h2>Welcome to My Teaching Portfolio</h2>
+  </div>
+</section>
+
+<!-- Teaching Philosophy Section -->
+
+<section class="philosophy" id="philosophy">
+  <div class="philosophy-container">
+    <h2>My Teaching Philosophy</h2>
+    <p id="philosophy-text-1"></p>
+    <br><br>
+    <p id="philosophy-text-2"></p>
+  </div>
+</section>
+
+<!-- Projects Section -->
+
+<section class="projects" id="projects">
+  <h2>Introduction to Web Design</h2>
+  <div class="card-container">
+
+    <div class="card">
+      <img src="images/project1.png" alt="Project 1">
+      <div class="card-info">
+        <h3>Pill, Bacteria, Virus Game</h3>
+        <p>Simulating emoji battles using arrays, classes, and collisions.</p>
+        <a href="PBV Project/index.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/project2.png" alt="Project 2">
+      <div class="card-info">
+        <h3>Morse Code</h3>
+        <p>Converting text to Morse code sounds with AudioContext.</p>
+        <a href="Morse Code Trasmitter Project/index.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/project3.png" alt="Project 3">
+      <div class="card-info">
+        <h3>Mario Music</h3>
+        <p>Playing Mario theme with AudioContext and animated jumps.</p>
+        <a href="Mario Project/index.html">View Project</a>
+      </div>
+    </div>
+
+  </div>
+  <br><br>
+    <div class="card-container">
+
+    <div class="card">
+      <img src="images/project4.png" alt="Project 4">
+      <div class="card-info">
+        <h3>Matrix Code</h3>
+        <p>Matrix-style dynamic binary with interactive secret messages.</p>
+        <a href="Matrix Project/index.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/project5.png" alt="Project 5">
+      <div class="card-info">
+        <h3>BlackJack!</h3>
+        <p>Interactive Blackjack game using Deck of Cards API.</p>
+        <a href="Blackjack Project/index.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/project6.png" alt="Project 6">
+      <div class="card-info">
+        <h3>Pokemon Battles</h3>
+        <p>Turn-based Pokémon battle simulator using PokéAPI.</p>
+        <a href="Pokemon Project/index.html">View Project</a>
+      </div>
+    </div>
+
+  </div>
+   <br><br>
+    <div class="card-container">
+
+    <div class="card">
+      <img src="images/project7.png" alt="Project 7">
+      <div class="card-info">
+        <h3>MD Scoreboard</h3>
+        <p>Simple scoreboard updating the DOM in real time.</p>
+        <a href="Scoreboard Project/index.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/project8.png" alt="Project 8">
+      <div class="card-info">
+        <h3>Countdown</h3>
+        <p>Countdown to April 27, 2026; shows time remaining</p>
+        <a href="Countdown Timer Project/index.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/project9.png" alt="Project 9">
+      <div class="card-info">
+        <h3>Rock! Paper! Scissors!</h3>
+        <p>Rock-Paper-Scissors game; tracks score, shows winner each round.</p>
+        <a href="Rock Paper Scissors Project/index.html">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+
+    <div class="contact-info">
+      <img src="images/me.png" id="thumbme">
+      <h2>Let’s Work Together</h2>
+      <p>
+        Have a project in mind or just want to say hello? 
+        Send me a message and I’ll get back to you.
+      </p>
+
+      <div class="contact-details">
+        <p><strong>Email:</strong> paugros@materdei.org</p>
+        <p><strong>Location:</strong>Santa Ana, California</p>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" placeholder="Your Email" required>
+      </div>
+
+      <div class="form-group">
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+      </div>
+
+      <button type="submit" id="send">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+
+<footer>
+  <p>&copy; 2026 Peter Augros</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
